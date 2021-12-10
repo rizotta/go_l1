@@ -23,7 +23,9 @@ func Task21() {
 }
 
 type USB struct{}
+
 type CardReader struct{}
+
 type Client struct{}
 
 type CartReaderAdapter struct {

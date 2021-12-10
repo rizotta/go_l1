@@ -13,7 +13,7 @@ func Task03() {
 	for _, val := range arr {
 		wg.Add(1)
 		val := val
-		go func() { // add random sum
+		go func() { // add random summary
 			defer wg.Done()
 			sum += val * val
 		}()

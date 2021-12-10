@@ -16,7 +16,7 @@ func Task02() {
 		go func(val int) {
 			defer wg.Done()
 			sqr := math.Pow(float64(val), 2)
-			fmt.Println(sqr) // show random sqr. Like "fmt.Fprintln(os.Stdout, sqr)"
+			fmt.Println(sqr) // show random sqr, like "fmt.Fprintln(os.Stdout, sqr)"
 		}(val) // copy "k" variable because of goroutines
 	}
 	wg.Wait()

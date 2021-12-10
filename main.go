@@ -68,7 +68,7 @@ func main() {
 	}
 }
 
-// getTask - request task number in console
+// getTask request task number in console
 func getTask() (int, error) {
 	var taskStr string
 	fmt.Print("Enter number of task from 1 to 26 => ")

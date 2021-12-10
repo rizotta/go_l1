@@ -11,8 +11,8 @@ func Task22() {
 	a := new(big.Float)
 	b := new(big.Float)
 
-	a.SetString("8000000000000000000000")
-	b.SetString("4000000000000000000000")
+	a.SetString("6000000000000000000000")
+	b.SetString("3000000000000000000000")
 
 	sum := new(big.Float)
 	sum.Add(a, b)

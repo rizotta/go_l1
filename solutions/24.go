@@ -10,7 +10,7 @@ import (
 func Task24() {
 	point1 := NewPoint(0, 0)
 	point2 := NewPoint(0, 10)
-	fmt.Printf("Point 1: %f\nPoint 2: %f\nDistance: %f\n", point1, point2, Distance(point1, point2))
+	fmt.Printf("point 1: %f\npoint 2: %f\ndistance: %f\n", point1, point2, Distance(point1, point2))
 }
 
 type Point struct {
