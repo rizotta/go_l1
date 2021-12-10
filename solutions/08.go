@@ -24,7 +24,7 @@ func Task08() {
 	resOneBinary := strconv.FormatInt(int64(resOne), 2)
 	resZeroBinary := strconv.FormatInt(int64(resZero), 2)
 
-	fmt.Printf("Result in tinary format:\n%s - default number \n%v - change bit to one\n%v - change bit to zero\n", numberBinary, resOneBinary, resZeroBinary)
+	fmt.Printf("Result in binary format:\n%s - default number \n%v - change bit to one\n%v - change bit to zero\n", numberBinary, resOneBinary, resZeroBinary)
 
 	//fmt.Printf("\ndefault: %s\nsetBit: %s\nclearBit: %s\n",
 	//	strconv.FormatInt(int64(number), 2),

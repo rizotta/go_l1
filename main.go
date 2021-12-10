@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	//taskNum, _ := getTask()
-	taskNum := 18
+	taskNum, _ := getTask()
+	//taskNum := 1
 	switch taskNum {
 	default:
 		fmt.Println("wrong number")
@@ -54,13 +54,13 @@ func main() {
 	case 20:
 		solutions.Task20()
 	case 21:
-		solutions.Task21() // empty
+		solutions.Task21()
 	case 22:
-		solutions.Task22() // empty
+		solutions.Task22()
 	case 23:
 		solutions.Task23()
 	case 24:
-		solutions.Task24() // empty
+		solutions.Task24()
 	case 25:
 		solutions.Task25()
 	case 26:

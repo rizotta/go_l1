@@ -2,7 +2,7 @@ package solutions
 
 import (
 	"fmt"
-	"l1/pkg"
+	"math"
 	"sync"
 )
 
@@ -15,7 +15,7 @@ func Task02() {
 		wg.Add(1)
 		go func(val int) {
 			defer wg.Done()
-			sqr := pkg.Sqr(val)
+			sqr := math.Pow(float64(val), 2)
 			fmt.Println(sqr) // show random sqr. Like "fmt.Fprintln(os.Stdout, sqr)"
 		}(val) // copy "k" variable because of goroutines
 	}
