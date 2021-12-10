@@ -21,7 +21,7 @@ func Task09() {
 	}
 }
 
-// write - write values from arr to chWrite channel
+// write values from arr to chWrite channel
 func write(arr []int, chWrite chan int) {
 	defer close(chWrite)
 	for _, val := range arr {
